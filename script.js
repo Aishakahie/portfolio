@@ -1,12 +1,10 @@
+let buttonn=document.querySelector(".buttonn")
+let menue=document.querySelector(".menue")
 
 
-// let menuIcon = document.querySelector('#menu-icon');
-// let navbar= document.querySelector('.navbar');
-
-// menuIcon.onclick = () => {
-//     menuIcon.classList.toggle('bx-x');
-//     navbar.classList.toggle('active');
-// };
+buttonn.addEventListener("click",()=>{
+    menue.classList.toggle("active")
+})
 
 
 
