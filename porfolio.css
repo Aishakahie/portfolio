@@ -427,7 +427,7 @@ body{
     }
 } */
 
-@media  (max-width: 600px) {
+@media (max-width:600px) {
     .menue{
         display: none;
         width: 100%;
@@ -459,8 +459,9 @@ body{
        }
 
        .header{
+        flex: auto;
         padding: 0px;
-        width: 100%;
+        width: 110%;
         display: flex;
         flex-direction: column;
         font-size: 20px;
